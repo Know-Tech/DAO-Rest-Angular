@@ -1,0 +1,34 @@
+
+
+<h3>Update </h3>
+<div *ngIf="employee">
+  <h2>
+  <div><span>EmployeeId: </span>{{employee.employeeid}}</div> </h2>
+  <div>
+    <label>EmployeeName:
+      <input [(ngModel)]="employee.employeename" placeholder="employeename"/>
+    </label>
+    <div>
+    <label>Employee Email:
+      <input [(ngModel)]="employee.email" placeholder="employeemail"/>
+    </label>
+    </div>
+    
+    <div>
+    <label>Employee Mobile:
+      <input [(ngModel)]="employee.mobile" placeholder="mobile"/>
+    </label>
+    </div>
+  </div>
+
+  <div>
+    <label>TechnicalSkill:
+      <input [(ngModel)]="employee.qualification" placeholder="qualification"/>
+    </label>
+    </div>
+
+  <button (click)="goBack()">Prev</button>
+    <button (click)="save()">Update</button>
+</div>
+
+
