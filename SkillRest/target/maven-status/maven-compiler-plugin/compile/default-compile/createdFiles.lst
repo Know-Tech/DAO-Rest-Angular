@@ -1,0 +1,3 @@
+com\niit\SkillRest\controller\regiseterpagerest.class
+com\niit\SkillRest\config\AppConfig.class
+com\niit\SkillRest\config\WebAppInitializer.class
